@@ -1,23 +1,18 @@
 import logo from './logo.svg';
 import './App.css';
+import Projectt from './components/Projectt';
+import Projectnew from './components/Projectnew';
+import Tablenew from './components/Tablenew';
+import Statebasics from './components/Statebasics';
+import State from './components/State';
+import Stateprojjectt from './components/Stateprojjectt';
+import Neww from './components/Neww';
+import Srproject from './components/Srproject';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+  <Srproject></Srproject>
     </div>
   );
 }
