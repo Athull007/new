@@ -8,11 +8,12 @@ import State from './components/State';
 import Stateprojjectt from './components/Stateprojjectt';
 import Neww from './components/Neww';
 import Srproject from './components/Srproject';
+import St44 from './components/St44';
 
 function App() {
   return (
     <div className="App">
-  <Srproject></Srproject>
+<St44></St44>
     </div>
   );
 }
